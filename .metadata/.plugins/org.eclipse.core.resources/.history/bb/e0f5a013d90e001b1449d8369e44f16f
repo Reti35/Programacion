@@ -1,0 +1,31 @@
+package soyironman;
+
+import java.util.Scanner;
+
+public class MostrarTablaDeMultiplicar {
+
+	// Programa que muestra la tabla de multiplicar de un numero introducido
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+
+		// Pedir valor
+
+		System.out.println("Introduce el numero de el cual quieres saber su tabla de multiplicar");
+		int numero = teclado.nextInt();
+
+		// Calculos
+
+		int contador;
+
+		for (contador = 0; contador < 10; contador++) {
+
+			int resultado = numero * contador;
+			System.out.println("el resultado de: " + numero + "*" + contador + " es: " + resultado);
+
+		}
+		;
+		teclado.close();
+	}
+
+}

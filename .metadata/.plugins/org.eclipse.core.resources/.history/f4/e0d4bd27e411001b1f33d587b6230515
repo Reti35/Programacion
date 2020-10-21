@@ -1,0 +1,46 @@
+package boletindeejercicios;
+
+import java.util.Scanner;
+
+public class OperacionesBasicas {
+
+	/*
+	 * programa que lee dos números, calcula y muestra el valor de su suma, resta,
+	 * producto y división. (Ten en cuenta la división por cero)
+	 */
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+
+		// Pedir dos numeros
+
+		System.out.println("Dame un numero");
+		int numero1 = teclado.nextInt();
+		System.out.println("Dame otro numero");
+		int numero2 = teclado.nextInt();
+
+		// calculos
+
+		int suma = numero1 + numero2;
+		int resta = numero1 - numero2;
+		int producto = numero1 * numero2;
+		int division = numero1 / numero2;
+
+		// Mostrar resultados
+
+		System.out.println("Resultados:");
+		System.out.println("Suma: " + suma);
+		System.out.println("Resta: " + resta);
+		System.out.println("Producto: " + producto);
+		if (numero1 == 0) {
+			System.out.println("No se puede dividir entre 0");	
+		}
+		else {
+			System.out.println("Division: " + division);
+		}
+		
+		teclado.close();
+
+	}
+
+}
