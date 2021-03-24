@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="soyironman.EjercicioSuma"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="Tema6Ejercicio0.Persona"/>
+<fullyQualifiedTypeName name="gente.Persona"/>
+<fullyQualifiedTypeName name="gente.Coche"/>
+<fullyQualifiedTypeName name="Tema6Ejercicio2.Contador"/>
+<fullyQualifiedTypeName name="java.lang.reflect.WildcardType"/>
+<fullyQualifiedTypeName name="Tema6Ejercicio3.Libro"/>
+<fullyQualifiedTypeName name="Tema6Ejercicio4.Fecha"/>
+<fullyQualifiedTypeName name="Tema6Ejercicio5.Sudoku"/>
+<fullyQualifiedTypeName name="Tema6Ejercicio5.Cafetera"/>
+<fullyQualifiedTypeName name="Tema6Ejercicio4.principal"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="Tema6Ejercicio6.Hora"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Tema6Ejercicio7.Cancion"/>
+<fullyQualifiedTypeName name="tema8Ejercicio0.Persona"/>
+<fullyQualifiedTypeName name="persona.Persona"/>
+<fullyQualifiedTypeName name="tema8Ejercicio0.Profesor"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
