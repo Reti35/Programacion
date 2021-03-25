@@ -13,8 +13,8 @@ public class Profesor extends Persona {
 	
 	public Profesor(String nombre, String despacho) {
 		
+		super(nombre);
 		this.despacho = despacho;
-		this.nombre = nombre;
 		
 	}
 
@@ -46,7 +46,7 @@ public class Profesor extends Persona {
 		
 		String consulta = "";
 		
-		consulta = nombre + " tiene tutoria los " + horasTutorias + " en la sala de profesores";
+		consulta = nombre + " tiene tutoria los " + horasTutorias + " en la sala " + despacho;
 		
 		return consulta;
 		

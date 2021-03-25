@@ -13,6 +13,12 @@ public class Persona {
 		
 	}
 	
+	public Persona(String nombre) {
+		
+		this.nombre = nombre;
+		
+	}
+	
 	public Persona(String nombre, int edad, Coche coche) {
 		
 		this.nombre = nombre;
