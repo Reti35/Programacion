@@ -14,13 +14,15 @@
 <fullyQualifiedTypeName name="Tema6Ejercicio4.principal"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="Tema6Ejercicio6.Hora"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="Tema6Ejercicio7.Cancion"/>
 <fullyQualifiedTypeName name="tema8Ejercicio0.Persona"/>
-<fullyQualifiedTypeName name="persona.Persona"/>
+<fullyQualifiedTypeName name="tema8Ejercicio0.Estudiante"/>
+<fullyQualifiedTypeName name="persona.Coche"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="tema8Ejercicio0.Profesor"/>
+<fullyQualifiedTypeName name="persona.Persona"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
