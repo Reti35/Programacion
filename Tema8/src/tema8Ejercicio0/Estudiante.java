@@ -1,8 +1,8 @@
 package tema8Ejercicio0;
 
-import persona.Persona;
+//import java.util.Scanner;
 
-public class Estudiante extends Persona {
+public class Estudiante extends MiembroUPV {
 
 	private int numeroExpediente;
 	private String cursoActual;
@@ -72,6 +72,12 @@ public class Estudiante extends Persona {
 
 		return media;
 
+	}
+
+	@Override
+	public void menuIntranet() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
