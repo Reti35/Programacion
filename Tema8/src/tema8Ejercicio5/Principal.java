@@ -7,7 +7,7 @@ package tema8Ejercicio5;
 /**
  * @author René Ribera Medrano 
  * Ejercicio 5 Tema 8 - Herencia
- *
+ * Clase Principal
  */
 public class Principal {
 
