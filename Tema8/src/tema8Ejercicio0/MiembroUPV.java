@@ -4,7 +4,7 @@ import persona.Persona;
 
 public abstract class MiembroUPV extends Persona {
 	
-	protected String carnet;
+	protected boolean carnet;
 	
 	public MiembroUPV() {
 		
@@ -16,13 +16,13 @@ public abstract class MiembroUPV extends Persona {
 		
 	}
 
-	public String getCarnet() {
+	public boolean getCarnet() {
 		
 		return carnet;
 		
 	}
 
-	public void setCarnet(String carnet) {
+	public void setCarnet(boolean carnet) {
 		
 		this.carnet = carnet;
 		

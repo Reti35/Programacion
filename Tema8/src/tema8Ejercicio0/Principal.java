@@ -15,15 +15,20 @@ public class Principal {
 		e.setCoche(c1);
 		e.setEdad(20);
 		e.setNotas(notas);
+		e.setCarnet(true);
+		e.menuIntranet();
 		
 		Profesor p = new Profesor("Fernando", "D104");
 		p.setCoche(c2);
 		p.setEdad(45);
 		p.setHorasTutorias("Lunes de 10:00 a 13:00");
+		p.setCarnet(true);
+		p.menuIntranet();
 		
 		System.out.println(e.getNotaMedia());
 		System.out.println();
 		System.out.println(p.getConsultas());
+		System.out.println();
 		
 	}
 

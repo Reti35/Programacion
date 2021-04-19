@@ -1,21 +1,23 @@
 package tema8Ejercicio0;
 
+import java.util.Scanner;
+
 //import java.util.Scanner;
 
 public class Estudiante extends MiembroUPV {
 
 	private int numeroExpediente;
-	private String cursoActual;
+	private String curso;
 	private double[] notas = new double[7];
 
 	public Estudiante() {
 
 	}
 
-	public Estudiante(String nombre, String cursoActual, int numeroExpediente) {
+	public Estudiante(String nombre, String curso, int numeroExpediente) {
 
 		super(nombre);
-		this.cursoActual = cursoActual;
+		this.curso = curso;
 		this.numeroExpediente = numeroExpediente;
 
 	}
@@ -32,15 +34,15 @@ public class Estudiante extends MiembroUPV {
 
 	}
 
-	public String getCursoActual() {
+	public String getCurso() {
 
-		return cursoActual;
+		return curso;
 
 	}
 
-	public void setCursoActual(String cursoActual) {
+	public void setCursoActual(String curso) {
 
-		this.cursoActual = cursoActual;
+		this.curso = curso;
 
 	}
 
@@ -76,8 +78,60 @@ public class Estudiante extends MiembroUPV {
 
 	@Override
 	public void menuIntranet() {
-		// TODO Auto-generated method stub
-		
-	}
+		Scanner sc = new Scanner(System.in);
 
+		System.out.println("Bienvenido al menú Intranet estudiante, seleccione la operación que desee hacer");
+		int opcion = 0;
+
+		do {
+
+			System.out.println("1-estudiante");
+			System.out.println("2-¿A qué actividades deportivas desea apuntarse?");
+			System.out.println("3-SALIR");
+			opcion = sc.nextInt();
+
+			switch (opcion) {
+
+			case 1:
+
+				System.out.println(nombre + " | " + edad + " | " + numeroExpediente);
+				break;
+				
+			case 2:
+				
+				System.out.println("En cuantas actividades quieres participar");
+				int a  = sc.nextInt();
+				
+				String[] actividades = new String[a];
+				
+				for (int i = 0; i < actividades.length; i++) {
+					
+					actividades[i] = sc.next();
+					
+				}
+				
+				for (int i = 0; i < actividades.length; i++) {
+					
+					System.out.println(actividades[i]);
+					
+				}
+				break;
+				
+			case 3:
+				
+				System.out.println("ASTA LUEGO! Gracias por utilizar la Intranet de estudiante");
+				break;
+
+			default:
+				
+				System.out.println("Opcion incorrecta");
+				break;
+				
+			}
+
+		} while (opcion != 3);
+
+		sc.close();
+
+	}
 }

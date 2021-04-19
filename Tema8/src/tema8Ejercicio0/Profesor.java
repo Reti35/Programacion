@@ -85,15 +85,43 @@ public class Profesor extends MiembroUPV {
 			case 1:
 
 				System.out.println(nombre + " | " + edad + " | " + despacho);
-
 				break;
 				
 			case 2:
 				
+				System.out.println(nomina);
+				break;
 				
+			case 3:
+				
+				System.out.println("En cuantas actividades quieres participar");
+				int a  = sc.nextInt();
+				
+				String[] actividades = new String[a];
+				
+				for (int i = 0; i < actividades.length; i++) {
+					
+					actividades[i] = sc.next();
+					
+				}
+				
+				for (int i = 0; i < actividades.length; i++) {
+					
+					System.out.println(actividades[i]);
+					
+				}
+				break;
+				
+			case 4:
+				
+				System.out.println("HASTA LUEGO! Gracias por utilizar la Intranet de profesor");
+				break;
 
 			default:
+				
+				System.out.println("Opcion incorrecta");
 				break;
+				
 			}
 
 		} while (opcion != 4);

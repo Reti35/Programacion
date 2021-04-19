@@ -13,7 +13,10 @@ public class Pricipal {
 	public static void main(String[] args) {
 		
 		Electrodomestico[] e = new Electrodomestico[10];
-		int precioFinal = 0; int precioFinalE = 0; int precioFinalL = 0; int precioFinalT = 0;
+		int precioFinal = 0; 
+		int precioFinalE = 0; 
+		int precioFinalL = 0; 
+		int precioFinalT = 0;
 		
 		e[0] = new Electrodomestico();
 		e[1] = new Lavadora();
