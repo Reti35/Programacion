@@ -32,7 +32,40 @@ public class Software extends Producto{
 	@Override
 	public double getPrecio() {
 		
-		return 0;
+		double precio = 0;
+		String codigo = String.valueOf(this.codigo);
+		
+		if (tipo.equalsIgnoreCase("ProgramaJuegos")) {
+			
+			if (codigo.equalsIgnoreCase("C")) {
+
+				precio = C + (C * 5 / 100);
+
+			}
+
+			if (codigo.equalsIgnoreCase("B")) {
+
+				precio = B + (B * 5 / 100);
+
+			}
+			
+		} else {
+			
+			if (codigo.equalsIgnoreCase("C")) {
+
+				precio = C;
+
+			}
+
+			if (codigo.equalsIgnoreCase("B")) {
+
+				precio = B;
+
+			}
+			
+		}
+		
+		return precio;
 	}
 
 }
