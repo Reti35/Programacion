@@ -60,6 +60,11 @@ public class Pricipal {
 		System.out.println("Precio Lavadoras: " + precioFinalL);
 		System.out.println("Precio Televisiones: " + precioFinalT);
 		System.out.println("Precio Total: " + precioFinal);
+		
+		Lavadora e1 = new Lavadora(33, 100, "lila", 50, 'C');
+		
+		System.out.println(e1);
+		System.out.println(e1.precioBase);
 
 	}
 

@@ -26,8 +26,25 @@
 <fullyQualifiedTypeName name="tema8Ejercicio0.MiembroUPV"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="tema9Ejercicio1.IPrecios"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="tema9Ejercicio1.Software"/>
 <fullyQualifiedTypeName name="tema9Ejercicio1.Producto"/>
 <fullyQualifiedTypeName name="tema9Ejercicio1.Hardware"/>
+<fullyQualifiedTypeName name="tema8Ejercicio5.Producto"/>
+<fullyQualifiedTypeName name="tema8Ejercicio5.Perecedero"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="java.awt.Container"/>
+<fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+<fullyQualifiedTypeName name="Ladrillitos"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="tema10Ejercicio2.CumpleañosFelices"/>
+<fullyQualifiedTypeName name="tema10Ejercicio2.Cumpleaños"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="javax.lang.model.element.PackageElement"/>
+<fullyQualifiedTypeName name="tema9Ejercicio2.Prestamos"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="tema9Ejercicio2.Publicacion"/>
+<fullyQualifiedTypeName name="tema9Ejercicio2.Libro"/>
+<fullyQualifiedTypeName name="tema9Ejercicio2.Revista"/>
+<fullyQualifiedTypeName name="MiVentana"/>
+<fullyQualifiedTypeName name="MiVentana2"/>
 </qualifiedTypeNameHistroy>

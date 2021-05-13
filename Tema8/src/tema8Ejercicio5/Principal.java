@@ -5,16 +5,53 @@
 package tema8Ejercicio5;
 
 /**
- * @author René Ribera Medrano 
- * Ejercicio 5 Tema 8 - Herencia
- * Clase Principal
+ * @author René Ribera Medrano Ejercicio 5 Tema 8 - Herencia Clase Principal
  */
 public class Principal {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
+
+		Producto[] p = new Producto[3];
+		int precioProducto = 0;
+		int precioPerecederos = 0;
+		int precioNoPerecederos = 0;
+
+		// Productos
+		p[2] = new Producto(70, "Cacao");
+
+		// Perecederos
+		p[0] = new Perecedero(5, "Yogurth", 2);
+
+		// NoPerecedero
+		p[1] = new NoPerecedero(28, "Macarrones", "Italiano");
+
+		for (int i = 0; i < p.length; i++) {
+			
+			p[i].calcular(5);
+
+			if (p[i] instanceof Producto) {
+				Producto produ = (Producto) p[i];
+				precioProducto = produ.getPrecio();
+
+			}
+
+			if (p[i] instanceof Perecedero) {
+				Perecedero pere = (Perecedero) p[i];
+				precioPerecederos = pere.precio;
+				
+			}
+
+			if (p[i] instanceof NoPerecedero) {
+				NoPerecedero noPere = (NoPerecedero) p[i];
+				precioNoPerecederos = noPere.precio;
+
+			}
+
+		}
+
+		System.out.println(precioProducto);
+		System.out.println(precioPerecederos);
+		System.out.println(precioNoPerecederos);
 
 	}
 
